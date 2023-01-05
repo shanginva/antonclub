@@ -1,0 +1,15 @@
+C:\Repos\AntonClub\Application\bin\Release\net7.0\Application.deps.json
+C:\Repos\AntonClub\Application\bin\Release\net7.0\Application.dll
+C:\Repos\AntonClub\Application\bin\Release\net7.0\Application.pdb
+C:\Repos\AntonClub\Application\bin\Release\net7.0\Domain.dll
+C:\Repos\AntonClub\Application\bin\Release\net7.0\Domain.pdb
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.csproj.AssemblyReference.cache
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.AssemblyInfoInputs.cache
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.AssemblyInfo.cs
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.csproj.CopyComplete
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.dll
+C:\Repos\AntonClub\Application\obj\Release\net7.0\refint\Application.dll
+C:\Repos\AntonClub\Application\obj\Release\net7.0\Application.pdb
+C:\Repos\AntonClub\Application\obj\Release\net7.0\ref\Application.dll
