@@ -1,6 +1,9 @@
-﻿<AuthorizeView>
+﻿@using Domain.Users
+@inject IUserService userService
+
+<AuthorizeView>
     <Authorized>
-        <a href="Identity/Account/Manage">Hello, @context.User.Identity?.Name!</a>
+        <a href="Identity/Account/Manage">Привет, @userService.UserName</a>
         <form method="post" action="Identity/Account/Logout">
             <button type="submit" class="nav-link btn btn-link">Log out</button>
         </form>
