@@ -14,8 +14,14 @@ public class UserService : IUserService
         this.httpContextAccessor = httpContextAccessor;
     }
 
-    public string UserName => httpContextAccessor.HttpContext?.User?.Identity?.Name ?? string.Empty;
+    public User? CurrentUser => httpContextAccessor.HttpContext?.User?.Identity?.Name switch
+    {
+        { } name => new User(name),
+        null => null
+    };
 
     public bool IsLoggedIn() => httpContextAccessor.HttpContext?.User != null 
         && signInManager.IsSignedIn(httpContextAccessor.HttpContext.User);
+
+    public Task LogOut() => signInManager.SignOutAsync();
 }

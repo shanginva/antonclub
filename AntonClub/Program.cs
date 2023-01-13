@@ -5,6 +5,8 @@ using Domain.Users;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using OpenTools.Mediator;
+using OpenTools.Mediator.Abstrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddMediator<DependencyResolver>();
+builder.Services.AddScoped<IQueryHandler<GetCurrentUserQuery, User?>, GetCurrentUserQueryHandler>();
 
 var app = builder.Build();
 

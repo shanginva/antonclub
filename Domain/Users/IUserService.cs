@@ -4,5 +4,7 @@ public interface IUserService
 {
     bool IsLoggedIn();
 
-    string UserName { get; }
+    Task LogOut();
+
+    User? CurrentUser { get; }
 }

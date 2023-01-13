@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntonClub", "AntonClub\Anto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{EAA8BC94-1FC3-4E3E-BEAE-147DE3135304}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1D139621-1004-473F-9FDB-CA8C6B492F09}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{562B93DD-6D70-418A-AA95-846C91A93B02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{632D4EAF-4724-4E00-8F4E-CAAF73B45272}"
@@ -16,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		git.ignore = git.ignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation.Razor", "Presentation.Razor\Presentation.Razor.csproj", "{B34F4846-C853-4A43-96F3-4FBEF3102EEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.Razor", "Presentation.Razor\Presentation.Razor.csproj", "{B34F4846-C853-4A43-96F3-4FBEF3102EEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +30,6 @@ Global
 		{EAA8BC94-1FC3-4E3E-BEAE-147DE3135304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAA8BC94-1FC3-4E3E-BEAE-147DE3135304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAA8BC94-1FC3-4E3E-BEAE-147DE3135304}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D139621-1004-473F-9FDB-CA8C6B492F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D139621-1004-473F-9FDB-CA8C6B492F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D139621-1004-473F-9FDB-CA8C6B492F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D139621-1004-473F-9FDB-CA8C6B492F09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{562B93DD-6D70-418A-AA95-846C91A93B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{562B93DD-6D70-418A-AA95-846C91A93B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562B93DD-6D70-418A-AA95-846C91A93B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
